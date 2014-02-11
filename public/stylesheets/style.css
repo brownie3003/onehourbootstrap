@@ -48,8 +48,17 @@ section {
     padding: 30px;
 }
 
+.hero p {
+    text-align: center
+}
+
 .smoke {
     background-color: whitesmoke;
+}
+
+.jumbotron input {
+    color: darkgrey;
+    margin: 5px;
 }
 
 /* A sticky footer, or ensuring your footer appears at the bottom of a page whether you have 1 line of text or 50 pages, is annoyingly difficult
