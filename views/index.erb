@@ -4,23 +4,9 @@
 			<h1>Build this website. In one hour.</h1>
 			<h3>On the 17th of February Code First Girls will be hosting a 1 hour workshop that will help you build this website.</h3>
 			<span>If you'd like to attend the workshop. Just sign up below and we'll get back to you.</span>
-			<form class="form-inline" role="form" method="post" action="https://romantical.wufoo.com/forms/q1ew7ee91719c2p/#public">
-				<div class="form-group">
-					<input id="Field2" class="form-control" name="Field2" type="text" value="" tabindex="1" placeholder="First Name" />
-				</div>
-				<div class="form-group">
-					<input id="Field3" class="form-control" name="Field3" type="text" value="" tabindex="2" placeholder="Last Name"/>
-				</div>
-				</br>
-				<div class="form-group">
-					<input id="Field4" class="form-control" name="Field4" type="email" spellcheck="false" value="" maxlength="255" tabindex="3" placeholder="Email Address" /> 
-				</div>
-				</br>
-				<div class="form-group">
-			  		<button id="saveForm" name="saveForm" type="submit" class="btn btn-default" value="Submit">Register</button>
-					<input type="hidden" id="idstamp" name="idstamp" value="po33ToeUiasEpeUMC3bnMzqs4w8RMat8CWrr/inf6BQ=" />
-				</div>
-			</form>
+
+			<%= erb :form %>
+
 			<a href="https://twitter.com/share" class="twitter-share-button" data-url="http://www.onehourbootstrap.com" data-text="I'm going to learn to build a website using @twbootstrap" data-via="CodeFirstGirls" data-related="ubc_founder" data-hashtags="YearOfCode">Tweet</a>
 			<script>
 				!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');
@@ -106,6 +92,15 @@
 								<a href="http://rubyinstaller.org/">Ruby Installer</a>
 							</td>
 						</tr>
+						<tr>
+							<td>Heroku</td>
+							<td>
+								Heroku is a way for us to put our website online so that we can show it to our friends.
+							</td>
+							<td>
+								<a href="https://toolbelt.heroku.com/windows">Heroku Toolbelt</a>
+							</td>
+						</tr>
 					</tbody>
 				</table>
 			</div>
@@ -144,6 +139,15 @@
 							<td>
 							</td>
 						</tr>
+						<tr>
+							<td>Heroku</td>
+							<td>
+								Heroku is a way for us to put our website online so that we can show it to our friends.
+							</td>
+							<td>
+								<a href="https://toolbelt.heroku.com/osx">Heroku Toolbelt</a>
+							</td>
+						</tr>
 					</tbody>
 				</table>
 			</div>
@@ -152,7 +156,7 @@
 			<div class="col-sm-12">
 				<h1><a href="http://www.youtube.com/watch?v=LanCLS_hIo4" target="_blank">Don't worry (about a thing)</a></h1>
 				<p>
-					Don't worry if you can't install any of the tools or follow any of the tutorials. We will help you at the workshop. Although we will let you into a little developer secret... most of our expertise is just Google. If you get stuck, try googling the exact error that your computer is giving and chances are someone else will have experienced it and someone else eminently more intelligent than all of us will have solved it. Stack Overflow is your friend.
+					Don't worry if you can't install any of the tools or follow any of the tutorials. We will help you at the workshop. Although we will let you into a little developer secret... most of our expertise is just Google. If you get stuck, try googling the exact error that your computer is giving and chances are someone else will have experienced it and someone else eminently more intelligent than all of us will have solved it. <a href="http://www.stackoverflow.com">Stack Overflow</a> is your friend.
 				</p>
 			</div>
 		</div>

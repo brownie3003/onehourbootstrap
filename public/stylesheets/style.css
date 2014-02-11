@@ -36,7 +36,6 @@ section {
     background-image: url('/images/background.jpg');
     background-size: cover;
     text-align: center;
-    height: 500px;
     background-position: center;
     color: white;
     margin-bottom: 0px;
@@ -57,8 +56,9 @@ section {
     margin: 5px;
 }
 
+
 .twitter-share-button {
-    text-align: center;
+    width: 77px;
 }
 
 .smoke {
