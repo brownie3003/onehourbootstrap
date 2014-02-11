@@ -52,14 +52,19 @@ section {
     text-align: center
 }
 
-.smoke {
-    background-color: whitesmoke;
-}
-
 .jumbotron input {
     color: darkgrey;
     margin: 5px;
 }
+
+.twitter-share-button {
+    text-align: center;
+}
+
+.smoke {
+    background-color: whitesmoke;
+}
+
 
 /* A sticky footer, or ensuring your footer appears at the bottom of a page whether you have 1 line of text or 50 pages, is annoyingly difficult
 The following css deals with it. */
